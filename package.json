@@ -1,0 +1,12 @@
+{
+  "type": "module",
+  "scripts": {
+    "start": "node  --loader ts-node/esm ./src/index.ts"
+  },
+  "dependencies": {
+    "symbol-sdk": "^3.0.11",
+    "ts-node": "^10.9.1",
+    "tsconfig-paths": "^4.2.0",
+    "typescript": "^5.1.6"
+  }
+}
